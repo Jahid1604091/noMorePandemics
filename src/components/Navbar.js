@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { menuList } from '../utils/nav-menu';
 import styled from 'styled-components'
-import logo from '../images/logo.png'
+import logo from '../images/logo.jpg'
 
 const Navbar = () => {
 
@@ -14,7 +14,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
-                        <img src={logo} alt="No More Pandemics" />
+                        <img src="" alt="Logo" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -58,29 +58,73 @@ const Wrapper = styled.section`
             border: 1px solid #000;
             border-radius:50%;
             text-align:center;
+            padding: 5px;
         }
        
         ul{
-            
-            li{
-                text-transform:capitalize;
-                display:inline-block;
-                padding:5px 15px;
-                text-align:center;
-                &:hover a{
-                    transition:var(--transition);
-                    border-bottom:1px solid #000;
-                }
-                a{
-                    color:#0e0e0e;
-
-                }
+            li {
+             margin: 0 20px;
+             display: inline-block;
+             text-align:center;
             }
+  /* Underline styles */
+        a {
+        display: inline-block;
+        position: relative;
+        padding: 0.2em 0;
+       
+        }
+
+        /* Fade in */
+        a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: red;
+        opacity: 0;
+        transition: opacity 300ms, transform 300ms;
+        }
+
+        a:hover::after,
+        a:focus::after {
+        opacity: 1;
+        transform: translate3d(0, 0.2em, 0);
+        }
+
+        /* Slide in */
+        li a {
+        overflow: hidden;
+        }
+
+        li a::after {
+            opacity 1;
+            transform: translate3d(-100%, 0, 0);
+        }
+
+        li a:hover::after,
+            li a:focus::after{
+            transform: translate3d(0, 0, 0);
+            }
+
+/* Scale from center */
+/* li:nth-child(3) a::after {
+  opacity 1;
+  transform: scale(0);
+  transform-origin: center;
+} */
+
+/* li:nth-child(3) a:hover::after,
+li:nth-child(3) a:focus::after{
+  transform: scale(1);
+} */
         }
 
         .active{
             a{
-                border-bottom:1px solid #000;
+                border-bottom:2px solid red;
             }
         }
     }
