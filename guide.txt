@@ -1,0 +1,9 @@
+add two scripts(predeploy and deploy), 
+install gh-pages
+
+npm run predeploy
+npm run deploy
+
+change BrowserRouter to HashRouter
+
+after update run> npm run deploy
