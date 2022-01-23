@@ -72,7 +72,7 @@ const Wrapper = styled.section`
         display: inline-block;
         position: relative;
         padding: 0.2em 0;
-       
+       color:#000;
         }
 
         /* Fade in */
