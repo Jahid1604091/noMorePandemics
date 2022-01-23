@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6474f82b.css",
-    "main.js": "/static/js/main.e0e64a04.js",
-    "static/media/logo.jpg": "/static/media/logo.391e2ea94adf9c6c8417.jpg",
-    "static/media/doctor.jpg": "/static/media/doctor.6247e50740136fc10b9d.jpg",
-    "index.html": "/index.html",
-    "main.6474f82b.css.map": "/static/css/main.6474f82b.css.map",
-    "main.e0e64a04.js.map": "/static/js/main.e0e64a04.js.map"
+    "main.css": "/noMorePandemics/static/css/main.6474f82b.css",
+    "main.js": "/noMorePandemics/static/js/main.cadf4939.js",
+    "static/media/logo.jpg": "/noMorePandemics/static/media/logo.391e2ea94adf9c6c8417.jpg",
+    "static/media/doctor.jpg": "/noMorePandemics/static/media/doctor.6247e50740136fc10b9d.jpg",
+    "index.html": "/noMorePandemics/index.html",
+    "main.6474f82b.css.map": "/noMorePandemics/static/css/main.6474f82b.css.map",
+    "main.cadf4939.js.map": "/noMorePandemics/static/js/main.cadf4939.js.map"
   },
   "entrypoints": [
     "static/css/main.6474f82b.css",
-    "static/js/main.e0e64a04.js"
+    "static/js/main.cadf4939.js"
   ]
 }
