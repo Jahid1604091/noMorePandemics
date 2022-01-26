@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 const Footer = () => {
     return <Wrapper>
-        <footer className="text-center bg-dark text-light p-3">
-            <p className='m-0 p-1'>NO MORE PANDEMICS LTD is a registered company limited by guarantee (13590459) in England and Wales
+        <footer className="text-center bg-dark text-light p-4">
+            <p className='m-0 text-center'>NO MORE PANDEMICS LTD is a registered company limited by guarantee (13590459) in England and Wales
             </p>
         </footer>
 
@@ -12,7 +12,9 @@ const Footer = () => {
 };
 
 const Wrapper = styled.section`
-   /* height:5vh; */
+    min-height:5rem;
+    position:static;
+   
     
 `
 export default Footer;
