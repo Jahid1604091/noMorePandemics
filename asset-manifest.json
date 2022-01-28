@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/noMorePandemics/static/css/main.7315e5e5.css",
-    "main.js": "/noMorePandemics/static/js/main.75ad4c7a.js",
+    "main.css": "/noMorePandemics/static/css/main.a40e3394.css",
+    "main.js": "/noMorePandemics/static/js/main.e5998daf.js",
     "static/media/vaccine.jpg": "/noMorePandemics/static/media/vaccine.c9605c2b15ff0880715d.jpg",
     "static/media/doctor.jpg": "/noMorePandemics/static/media/doctor.6247e50740136fc10b9d.jpg",
     "index.html": "/noMorePandemics/index.html",
-    "main.7315e5e5.css.map": "/noMorePandemics/static/css/main.7315e5e5.css.map",
-    "main.75ad4c7a.js.map": "/noMorePandemics/static/js/main.75ad4c7a.js.map"
+    "main.a40e3394.css.map": "/noMorePandemics/static/css/main.a40e3394.css.map",
+    "main.e5998daf.js.map": "/noMorePandemics/static/js/main.e5998daf.js.map"
   },
   "entrypoints": [
-    "static/css/main.7315e5e5.css",
-    "static/js/main.75ad4c7a.js"
+    "static/css/main.a40e3394.css",
+    "static/js/main.e5998daf.js"
   ]
 }
